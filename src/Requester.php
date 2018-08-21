@@ -23,7 +23,7 @@ class Requester {
         // 准备query, headers, postData
         $query    = array();
         $postData = array();
-        if(!isset($headers)){
+        if(!is_array($headers)){
              $headers = array();
         }
        
